@@ -21,6 +21,7 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+
     // Crear un nuevo usuario
     @PostMapping
     public User createUser(@RequestBody User user) {
